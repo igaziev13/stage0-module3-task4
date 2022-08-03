@@ -5,7 +5,7 @@ public class FormulaCreator {
 
             int a = 9;
             int b = 10;
-            float formula = (9 * a ^ 2 + 5 * b + 2 + a + 7) * ((a + b - 4 * a * b) / 2);
+            float formula = (9 * (a ^ 2) - 5 * b + 2 + a - 7) * ((a + b - 4 * a * b) / 2);
             System.out.println(formula);
     }
 }
